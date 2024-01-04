@@ -1,0 +1,27 @@
+# Changes here will be overwritten by Copier. NEVER EDIT MANUALLY
+# See: https://copier.readthedocs.io/en/stable/configuring/#the-copier-answersyml-file
+_commit: v0.1.11
+_src_path: gh:hexdoc-dev/hexdoc-hexcasting-template
+author: Sofistico
+book_id: hexjam:hexjambook
+default_branch: main
+github_repo: Hexjam
+gradle_mod_version_key: modVersion
+hexdoc_mod_plugin_classname: HexJamModPlugin
+hexdoc_plugin_classname: HexJamPlugin
+java_lang:
+    ext: java
+    src: java
+java_package: net/hexjam
+mod_display_name: HexJam
+modid: hexjam
+multiloader: true
+package_export_root: doc/src/hexdoc_hexjam/_export
+package_name: hexdoc-hexjam
+package_slug: hexdoc_hexjam
+package_src: doc/src/hexdoc_hexjam
+pages_url: https://sofistico.github.io/Hexjam
+pattern_regex:
+    per_world_value: registerPerWorld
+    regex: (?P<is_per_world>register|registerPerWorld)\(HexPattern\.fromAngles\("(?P<signature>[qweasd]+)",\s*HexDir\.(?P<startdir>\w+)\),\s*"(?P<name>[^"]+)"?
+pattern_registry: registry/HexJamPatternRegistry.java

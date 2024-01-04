@@ -1,0 +1,20 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+# https://copier.readthedocs.io/en/stable/configuring/#the-copier-answersyml-file
+_commit: v0.0.4
+_src_path: gh:object-Object/hexdummy
+author: Sofistico
+capitalize_platforms: true
+classname: HexJam
+default_branch: main
+description: HexJam addon for Hex Casting
+display_name: HexJam
+github_repo: Hexjam
+hexcasting_version: 0.10.3
+homepage_url: https://sofistico.github.io/Hexjam
+initial_mod_version: 0.0.1
+java_version: 17
+license: MIT
+mappings_name: Yarn
+modid: hexjam
+package: net.hexjam
+sources_url: https://github.com/Sofistico/Hexjam

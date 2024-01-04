@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "hexjam",
+  "version": "${version}",
+  "name": "HexJam",
+  "description": "HexJam addon for Hex Casting",
+  "authors": [
+    "Sofistico"
+  ],
+  "contact": {
+    "homepage": "https://sofistico.github.io/Hexjam",
+    "sources": "https://github.com/Sofistico/Hexjam"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.hexjam.fabric.HexJamFabric"
+    ],
+    "client": [
+      "net.hexjam.fabric.HexJamClientFabric"
+    ]
+  },
+  "mixins": [
+    "hexjam-common.mixins.json",
+    "hexjam.mixins.json"
+  ],
+  "depends": {
+    "minecraft": ">=1.19.2",
+    "fabricloader": ">=0.14.21",
+    "fabric-api": "*",
+    "fabric-language-kotlin": ">=1.9.0+kotlin.1.8.0",
+    "architectury": ">=6.5.85",
+    "hexcasting": ">=0.10.3"
+  }
+}

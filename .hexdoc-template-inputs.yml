@@ -1,0 +1,19 @@
+author: Sofistico
+book_id: "hexjam:hexjambook"
+default_branch: main
+github_repo: Hexjam
+gradle_mod_version_key: modVersion
+hexdoc_mod_plugin_classname: HexJamModPlugin
+hexdoc_plugin_classname: HexJamPlugin
+java_lang:
+  ext: java
+  src: java
+java_package: net/hexjam
+mod_display_name: HexJam
+modid: hexjam
+multiloader: true
+pages_url: https://sofistico.github.io/Hexjam
+pattern_regex:
+  regex: '(?P<is_per_world>register|registerPerWorld)\(HexPattern\.fromAngles\("(?P<signature>[qweasd]+)",\s*HexDir\.(?P<startdir>\w+)\),\s*"(?P<name>[^"]+)"?'
+  per_world_value: registerPerWorld
+pattern_registry: registry/HexJamPatternRegistry.java
