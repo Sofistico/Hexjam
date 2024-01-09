@@ -23,6 +23,7 @@ public class HexJamPatternRegistry {
     public static HexPattern CONGRATS = registerPerWorld(HexPattern.fromAngles("eed", HexDir.WEST), "congrats", new OpCongrats());
     public static HexPattern SIGNUM = register(HexPattern.fromAngles("edd", HexDir.NORTH_WEST), "signum", new OpSignum());
     public static HexPattern SHEARS = register(HexPattern.fromAngles("eed", HexDir.WEST), "shears", new OpShears());
+    public static HexPattern HUNGER = register(HexPattern.fromAngles("aqqqqqeawaw", HexDir.NORTH_WEST), "potion/hunger", new OpShears());
 
     public static void init() {
         try {
