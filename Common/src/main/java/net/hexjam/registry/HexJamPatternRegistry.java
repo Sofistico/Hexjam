@@ -7,7 +7,9 @@ import at.petrak.hexcasting.api.spell.math.HexPattern;
 import kotlin.Triple;
 import net.hexjam.casting.patterns.math.OpSignum;
 import net.hexjam.casting.patterns.spells.OpCongrats;
+import net.hexjam.casting.patterns.spells.OpShears;
 import net.minecraft.util.Identifier;
+import net.hexjam.casting.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,6 +22,7 @@ public class HexJamPatternRegistry {
     // IMPORTANT: be careful to keep the registration calls looking like this, or you'll have to edit the hexdoc pattern regex.
     public static HexPattern CONGRATS = registerPerWorld(HexPattern.fromAngles("eed", HexDir.WEST), "congrats", new OpCongrats());
     public static HexPattern SIGNUM = register(HexPattern.fromAngles("edd", HexDir.NORTH_WEST), "signum", new OpSignum());
+    public static HexPattern SHEARS = register(HexPattern.fromAngles("eed", HexDir.WEST), "shears", new OpShears());
 
     public static void init() {
         try {
